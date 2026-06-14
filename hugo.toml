@@ -1,0 +1,17 @@
+baseURL = 'https://blacksburgmuseum.org/'
+languageCode = 'en-us'
+title = 'Blacksburg Museum and Cultural Foundation'
+
+[params]
+  description = 'Stewards of the Alexander Black House and St. Luke & Odd Fellows Hall near Blacksburg.'
+  contact = { phone = "540-443-1600", email = "info@blacksburghistory.org" }
+
+  [[params.social]]
+    name = "Facebook"
+    url = "https://www.facebook.com/blacksburgmuseum"
+  [[params.social]]
+    name = "Instagram"
+    url = "https://www.instagram.com/blacksburgmuseum"
+  [[params.social]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@blacksburghistory"

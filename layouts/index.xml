@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blacksburg Museum and Cultural Foundation</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blacksburg Museum and Cultural Foundation</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;The Blacksburg Museum and Cultural Foundation preserves the region’s stories through museum operations, exhibitions, education, and community engagement. We care for the Alexander Black House and St. Luke &amp;amp; Odd Fellows Hall, sharing local history and cultural heritage with visitors and learners.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Event Rental</title>
+      <link>http://localhost:1313/support/event-rental/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/support/event-rental/</guid>
+      <description>&lt;p&gt;Event rental information covers available spaces, capacity, rental policies, and booking details. Contact the museum to reserve a room for your next event.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Upstairs</title>
+      <link>http://localhost:1313/exhibitions/upstairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/exhibitions/upstairs/</guid>
+      <description>&lt;p&gt;The upstairs galleries feature rotating exhibitions and curated displays that highlight local history, art, and cultural programs. Explore this upper-level space for changing installations and interpretive exhibits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Visitor Info</title>
+      <link>http://localhost:1313/visitor-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/visitor-info/</guid>
+      <description>&lt;p&gt;Visitor information includes museum hours, accessibility details, directions, and location-specific guidance to ensure a safe and welcoming experience.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hours available upon request&lt;/li&gt;&#xA;&lt;li&gt;Accessibility accommodations available&lt;/li&gt;&#xA;&lt;li&gt;Guided and self-guided tour options&lt;/li&gt;&#xA;&lt;li&gt;Group visits welcome&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Volunteer</title>
+      <link>http://localhost:1313/support/volunteer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/support/volunteer/</guid>
+      <description>&lt;p&gt;Volunteers play a key role in museum operations, visitor services, and event support. Learn about opportunities to contribute your time and skills to our exhibitions and programs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bibliography</title>
+      <link>http://localhost:1313/support/bibliography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/support/bibliography/</guid>
+      <description>&lt;p&gt;The bibliography page lists primary and secondary sources used in our exhibitions and research. It is a resource for students, historians, and anyone interested in local heritage.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calendar</title>
+      <link>http://localhost:1313/calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/calendar/</guid>
+      <description>&lt;p&gt;Our calendar highlights exhibition openings, special programs, and public events. Check back often for new updates and seasonal activities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On the Lawn</title>
+      <link>http://localhost:1313/exhibitions/on-the-lawn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/exhibitions/on-the-lawn/</guid>
+      <description>&lt;p&gt;The lawn area hosts outdoor exhibitions, community programs, and seasonal events. This outdoor space allows visitors to engage with the museum across landscaped grounds and public displays.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sponsor</title>
+      <link>http://localhost:1313/support/sponsor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/support/sponsor/</guid>
+      <description>&lt;p&gt;Sponsorship helps fund exhibits, education programs, and community initiatives. Discover how your organization can support the museum and amplify its impact.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Children&#39;s Gallery</title>
+      <link>http://localhost:1313/exhibitions/childrens-gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/exhibitions/childrens-gallery/</guid>
+      <description>&lt;p&gt;The Children&amp;rsquo;s Gallery offers family-friendly exhibits, interactive displays, and programs designed to engage young visitors with history and the arts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Donate</title>
+      <link>http://localhost:1313/support/donate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/support/donate/</guid>
+      <description>&lt;p&gt;Donations help maintain exhibitions, educational programs, and historic preservation efforts. Learn how your contribution supports the Blacksburg Museum and Cultural Foundation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Featured Artist</title>
+      <link>http://localhost:1313/featured-artist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/featured-artist/</guid>
+      <description>&lt;p&gt;The featured artist section celebrates local and regional creators whose work is on view in our gallery spaces. Discover their stories, creative process, and exhibition themes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Visit</title>
+      <link>http://localhost:1313/visit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/visit/</guid>
+      <description>&lt;p&gt;Plan your visit to the Blacksburg Museum and Cultural Foundation.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Phone: 540-443-1600&lt;/li&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;mailto:info@blacksburghistory.org&#34;&gt;info@blacksburghistory.org&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We welcome visitors interested in guided tours, research, and local history programs. Please contact us for the latest hours and exhibition information.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Phone: 540-443-1600&lt;br&gt;&#xA;Email: &lt;a href=&#34;mailto:info@blacksburghistory.org&#34;&gt;info@blacksburghistory.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Follow us:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/blacksburgmuseum&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.instagram.com/blacksburgmuseum&#34;&gt;Instagram&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@blacksburghistory&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

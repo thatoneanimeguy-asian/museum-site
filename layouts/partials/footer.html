@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>Contact</h2>
+      {{ $contact := .Params.contact | default .Site.Params.contact }}
+      {{ with $contact }}
+        {{ with .phone }}<p>Phone: <a href="tel:{{ . }}">{{ . }}</a></p>{{ end }}
+        {{ with .email }}<p>Email: <a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+      {{ else }}
+        <p>Phone and email information is not available.</p>
+      {{ end }}
+    </div>
+    <div>
+      <h2>Follow us</h2>
+      <ul class="social-list">
+        {{ $social := .Params.social | default .Site.Params.social }}
+        {{ range $social }}
+          <li><a href="{{ .url }}" target="_blank" rel="noreferrer noopener">{{ .name }}</a></li>
+        {{ else }}
+          <li>Social links are not available.</li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</footer>

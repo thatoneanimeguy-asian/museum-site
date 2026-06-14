@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <a class="logo" href="/">
+        <div class="logo1">
+          <img src="images/logo.png" alt="museum picture">
+        </div>
+      </a>
+      <p>{{ with .Params.hero.subtext }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}</p>
+    </div>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/exhibitions/">Exhibitions</a>
+      <a href="/visit/">Visit</a>
+      <a href="/support/">Support</a>
+      <a href="/museums/">Museums</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>

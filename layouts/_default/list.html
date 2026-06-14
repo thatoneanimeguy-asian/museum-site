@@ -1,0 +1,28 @@
+
+{{ define "main" }}
+<!-- Add it here too so it displays on home/list pages -->
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+...
+</button>
+<section class="page-banner">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="intro">{{ . }}</p>{{ end }}
+  </div>
+</section>
+<section class="section page-content">
+  <div class="container">
+    {{ .Content }}
+    {{ if .Pages }}
+    <div class="cards-grid section-top">
+      {{ range .Pages.ByWeight }}
+      <article class="card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

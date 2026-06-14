@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Params.description | default .Site.Params.description }}" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/sidebar-toggle.js" defer></script>
+  </head>
+  <body>
+    <div class="site-frame sidebar-open">
+      {{ partial "sidebar.html" . }}
+      <div class="sidebar-overlay"></div>
+      <div class="content-frame">
+        <div class="top-bar">
+          <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar">
+            <span class="sr-only">Menu</span>
+          </button>
+          <a class="top-bar-brand" href="/">
+            <span class="brand-name">BM&CF</span>
+            <span class="brand-url">Blacksburg Museum and Cultural Foundation</span>
+          </a>
+        </div>
+        <main class="page-shell">
+          {{ block "main" . }}{{ end }}
+        </main>
+        {{ partial "footer.html" . }}
+      </div>
+    </div>
+  </body>
+</html>

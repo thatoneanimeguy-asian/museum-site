@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Blacksburg Museum and Cultural Foundation"
+
+[params]
+  contact = { phone = "540-443-1600", email = "info@blacksburghistory.org" }
+  [[params.social]]
+    name = "Facebook"
+    url = "https://www.facebook.com/blacksburgmuseum"
+  [[params.social]]
+    name = "Instagram"
+    url = "https://www.instagram.com/blacksburgmuseum"
+  [[params.social]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@blacksburghistory"

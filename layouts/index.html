@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="hero site-hero">
+  <div class="container hero-inner">
+    <h1>{{ .Params.hero.tagline }}</h1>
+    <div class="social-links" aria-label="Social links">
+      {{ range .Params.social }}
+      <a href="{{ .url }}" aria-label="{{ .name }}">{{ substr .name 0 1 }}</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section image-band">
+  <div class="container">
+    <img src="/images/image.png" alt="Alexander Black House and St. Luke & Odd Fellows Hall">
+  </div>
+</section>
+
+<section class="section statement-section">
+  <div class="container narrow-copy">
+    <p>We are the stewards of two museums near Blacksburg - The Alexander Black House and St. Luke &amp; Odd Fellows Hall</p>
+    <p>{{ .Params.mission }}</p>
+  </div>
+</section>
+
+<section class="section museums-section">
+  <div class="container narrow-copy">
+    <div class="museum-copy">
+    {{ range .Params.museums }}
+    <article>
+      <h2>{{ .title }}</h2>
+      <p>{{ .description }}</p>
+    </article>
+    {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section video-section">
+  <div class="container video-wrap">
+    <iframe
+      src="https://www.youtube.com/embed/VmjMFMad_t8?si=BLYl-y0oX_g0lkD4"
+      title="Blacksburg Museum & Cultural Foundation video business card"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<section class="section contact-strip">
+  <div class="container">
+    <p><strong>Contact:</strong> <a href="mailto:{{ .Params.contact.email }}">{{ .Params.contact.email }}</a> &middot; {{ .Params.contact.phone }}</p>
+  </div>
+</section> 
+
+{{ end }}
