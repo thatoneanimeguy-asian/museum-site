@@ -7,15 +7,13 @@
         <summary>{{ .title }}</summary>
         <div class="nav-subitems">
           {{ range .children }}
-          <a class="nav-link" href="{{ .url }}">{{ .title }}</a>
+          <a class="nav-link" href="{{ .url | relURL }}">{{ .title }}</a>
           {{ end }}
         </div>
       </details>
       {{ else }}
-      <a class="nav-link nav-item" href="{{ .url }}">{{ .title }}</a>
+      <a class="nav-link nav-item" href="{{ .url | relURL }}">{{ .title }}</a>
       {{ end }}
     {{ end }}
   </nav>
 </aside>
-
-
