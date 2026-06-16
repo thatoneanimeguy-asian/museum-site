@@ -15,3 +15,6 @@ title = 'Blacksburg Museum and Cultural Foundation'
   [[params.social]]
     name = "YouTube"
     url = "https://www.youtube.com/@blacksburghistory"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
