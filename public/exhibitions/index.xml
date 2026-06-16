@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exhibitions on Blacksburg Museum and Cultural Foundation</title>
-    <link>http://localhost:1313/exhibitions/</link>
+    <link>https://blacksburgmuseum.org/exhibitions/</link>
     <description>Recent content in Exhibitions on Blacksburg Museum and Cultural Foundation</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/exhibitions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blacksburgmuseum.org/exhibitions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Upstairs</title>
-      <link>http://localhost:1313/exhibitions/upstairs/</link>
+      <link>https://blacksburgmuseum.org/exhibitions/upstairs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/exhibitions/upstairs/</guid>
+      <guid>https://blacksburgmuseum.org/exhibitions/upstairs/</guid>
       <description>&lt;p&gt;The upstairs galleries feature rotating exhibitions and curated displays that highlight local history, art, and cultural programs. Explore this upper-level space for changing installations and interpretive exhibits.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visitor Info</title>
-      <link>http://localhost:1313/exhibitions/visitor-info/</link>
+      <link>https://blacksburgmuseum.org/exhibitions/visitor-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/exhibitions/visitor-info/</guid>
-      <description>&lt;p&gt;Visitor information includes museum hours, accessibility details, directions, and location-specific guidance to ensure a safe and welcoming experience.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hours available upon request&lt;/li&gt;&#xA;&lt;li&gt;Accessibility accommodations available&lt;/li&gt;&#xA;&lt;li&gt;Guided and self-guided tour options&lt;/li&gt;&#xA;&lt;li&gt;Group visits welcome&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>https://blacksburgmuseum.org/exhibitions/visitor-info/</guid>
+      <description>&lt;p&gt;We are open Tuesday Saturday from 10am 4pm with free admission.&#xA;If you would like to schedule a group visit, please contact us so that we can be sure to accommodate you.&#xA;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeZxfJPmOSg7qFQhb-LtAZxZi84efGt9AzNcGGZIBbeT6CeRQ/viewform&#34;&gt;contact us&lt;/a&gt; about rental needs, donations, events, exhibits or anything else that may pertain to our mission. We&amp;rsquo;re happy to help!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Calendar</title>
-      <link>http://localhost:1313/exhibitions/calendar/</link>
+      <link>https://blacksburgmuseum.org/exhibitions/calendar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/exhibitions/calendar/</guid>
+      <guid>https://blacksburgmuseum.org/exhibitions/calendar/</guid>
       <description>&lt;p&gt;Our calendar highlights exhibition openings, special programs, and public events. Check back often for new updates and seasonal activities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On the Lawn</title>
-      <link>http://localhost:1313/exhibitions/on-the-lawn/</link>
+      <link>https://blacksburgmuseum.org/exhibitions/on-the-lawn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/exhibitions/on-the-lawn/</guid>
+      <guid>https://blacksburgmuseum.org/exhibitions/on-the-lawn/</guid>
       <description>&lt;p&gt;The lawn area hosts outdoor exhibitions, community programs, and seasonal events. This outdoor space allows visitors to engage with the museum across landscaped grounds and public displays.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Children&#39;s Gallery</title>
-      <link>http://localhost:1313/exhibitions/childrens-gallery/</link>
+      <link>https://blacksburgmuseum.org/exhibitions/childrens-gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/exhibitions/childrens-gallery/</guid>
+      <guid>https://blacksburgmuseum.org/exhibitions/childrens-gallery/</guid>
       <description>&lt;p&gt;The Children&amp;rsquo;s Gallery offers family-friendly exhibits, interactive displays, and programs designed to engage young visitors with history and the arts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Featured Artist</title>
-      <link>http://localhost:1313/exhibitions/featured-artist/</link>
+      <link>https://blacksburgmuseum.org/exhibitions/featured-artist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/exhibitions/featured-artist/</guid>
-      <description>&lt;p&gt;The featured artist section celebrates local and regional creators whose work is on view in our gallery spaces. Discover their stories, creative process, and exhibition themes.&lt;/p&gt;</description>
+      <guid>https://blacksburgmuseum.org/exhibitions/featured-artist/</guid>
+      <description>&lt;p&gt;The featured artist section celebrates local and regional creators whose work is on view in our gallery spaces. Discover their stories, creative process, and exhibition themes.&#xA;&lt;img src=&#34;https://blacksburgmuseum.org/images/artist.png&#34; alt=&#34;The featured artist of the month&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

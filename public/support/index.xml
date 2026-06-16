@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Support on Blacksburg Museum and Cultural Foundation</title>
-    <link>http://localhost:1313/support/</link>
+    <link>https://blacksburgmuseum.org/support/</link>
     <description>Recent content in Support on Blacksburg Museum and Cultural Foundation</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/support/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blacksburgmuseum.org/support/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event Rental</title>
-      <link>http://localhost:1313/support/event-rental/</link>
+      <link>https://blacksburgmuseum.org/support/event-rental/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/support/event-rental/</guid>
+      <guid>https://blacksburgmuseum.org/support/event-rental/</guid>
       <description>&lt;p&gt;Event rental information covers available spaces, capacity, rental policies, and booking details. Contact the museum to reserve a room for your next event.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Volunteer</title>
-      <link>http://localhost:1313/support/volunteer/</link>
+      <link>https://blacksburgmuseum.org/support/volunteer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/support/volunteer/</guid>
+      <guid>https://blacksburgmuseum.org/support/volunteer/</guid>
       <description>&lt;p&gt;Volunteers play a key role in museum operations, visitor services, and event support. Learn about opportunities to contribute your time and skills to our exhibitions and programs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bibliography</title>
-      <link>http://localhost:1313/support/bibliography/</link>
+      <link>https://blacksburgmuseum.org/support/bibliography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/support/bibliography/</guid>
+      <guid>https://blacksburgmuseum.org/support/bibliography/</guid>
       <description>&lt;p&gt;The bibliography page lists primary and secondary sources used in our exhibitions and research. It is a resource for students, historians, and anyone interested in local heritage.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sponsor</title>
-      <link>http://localhost:1313/support/sponsor/</link>
+      <link>https://blacksburgmuseum.org/support/sponsor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/support/sponsor/</guid>
+      <guid>https://blacksburgmuseum.org/support/sponsor/</guid>
       <description>&lt;p&gt;Sponsorship helps fund exhibits, education programs, and community initiatives. Discover how your organization can support the museum and amplify its impact.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Donate</title>
-      <link>http://localhost:1313/support/donate/</link>
+      <link>https://blacksburgmuseum.org/support/donate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/support/donate/</guid>
+      <guid>https://blacksburgmuseum.org/support/donate/</guid>
       <description>&lt;p&gt;Donations help maintain exhibitions, educational programs, and historic preservation efforts. Learn how your contribution supports the Blacksburg Museum and Cultural Foundation.&lt;/p&gt;</description>
     </item>
   </channel>
