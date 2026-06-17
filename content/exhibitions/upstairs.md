@@ -2,7 +2,7 @@
 title: "Upstairs"
 description: "Discover the upstairs exhibition galleries at the Blacksburg Museum."
 weight: 1
-layout: "upstairs/upstairs"
+layout: "upstairs"
 ---
 
 

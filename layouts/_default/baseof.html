@@ -6,7 +6,7 @@
     <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Params.description | default .Site.Params.description }}" />
     <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
-    <script src="/js/sidebar-toggle.js" defer></script>
+    <script src="{{ "js/sidebar-toggle.js" | relURL }}" defer></script>
   </head>
   <body>
     <div class="site-frame sidebar-open">
@@ -17,7 +17,7 @@
           <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar">
             <span class="sr-only">Menu</span>
           </button>
-          <a class="top-bar-brand" href="/">
+          <a class="top-bar-brand" href="{{ "/" | relURL }}">
             <span class="brand-name">BM&CF</span>
             <span class="brand-url">Blacksburg Museum and Cultural Foundation</span>
           </a>

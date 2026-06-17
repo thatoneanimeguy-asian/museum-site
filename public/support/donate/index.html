@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donate | Blacksburg Museum and Cultural Foundation</title>
@@ -69,36 +69,78 @@
   </nav>
 </aside>
 
-
-
       <div class="sidebar-overlay"></div>
       <div class="content-frame">
-         <div class="top-bar">
-          <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar"><span class="sr-only">Menu</span></button>
+        <div class="top-bar">
+          <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar">
+            <span class="sr-only">Menu</span>
+          </button>
           <a class="top-bar-brand" href="/">
             <span class="brand-name">BM&CF</span>
             <span class="brand-url">Blacksburg Museum and Cultural Foundation</span>
           </a>
-        </div> 
+        </div>
         <main class="page-shell">
           
-<section class="page-banner">
-  <div class="container">
-    <h1>Donate</h1>
-    
-    <p class="intro">Support the museum by making a financial gift to preserve history and culture.</p>
-    
-  </div>
-</section>
-<section class="section page-content">
-  <div class="container">
-    <div class="content-body">
-      <p>Blacksburg Museum & Cultural Foundation Members enjoy many benefits including advance ticket sales, discounts, and special invitations to Members-Only events and receptions. Best of all, members have a stake in Blacksburg Museum and Cultural Foundation’s past as well as its exciting future. Join or renew below at one of the following levels and see why members matter at BM&CF!
-​For questions or more information about membership, please contact us at info@blacksburghistory.org or 540-443-1600.</p>
 
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="3"></circle>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+  </svg>
+</button>
+
+
+<section class="page-banner">
+    <div class="container">
+        <h1>Donate</h1>
+        
+        <p class="intro">Support the museum by making a financial gift to preserve history and culture.</p>
+        
     </div>
-  </div>
 </section>
+
+
+<section class="section page-content">
+    <div class="container">
+        <div class="content-body">
+            <p>Donations help maintain exhibitions, educational programs, and historic preservation efforts. Learn how your contribution supports the Blacksburg Museum and Cultural Foundation.</p>
+
+        </div>
+    </div>
+</section>
+
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleButton = document.getElementById('themeToggle');
+        
+        
+        if (!toggleButton) {
+            console.error("Theme toggle button was not found in the HTML!");
+            return;
+        }
+
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme) {
+          document.documentElement.setAttribute('data-theme', currentTheme);
+        }
+
+        toggleButton.addEventListener('click', () => {
+          let theme = document.documentElement.getAttribute('data-theme');
+          if (theme === 'dark') {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'light');
+          } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+          }
+        });
+    });
+</script>
+
 
         </main>
         <footer class="site-footer">

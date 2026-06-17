@@ -2,7 +2,7 @@
 title: "Visitor Info"
 description: "Plan your museum visit with hours, accessibility, and visitor guidelines."
 weight: 1
-layout: "visitor-info/info"
+layout: "info"
 ---
 We are open Tuesday Saturday from 10am 4pm with free admission.
 If you would like to schedule a group visit, please contact us so that we can be sure to accommodate you.

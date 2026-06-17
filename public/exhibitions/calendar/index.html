@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar | Blacksburg Museum and Cultural Foundation</title>
@@ -51,10 +51,6 @@
       
     
       
-      <a class="nav-link nav-item" href="/contact/">Contact</a>
-      
-    
-      
       <a class="nav-link nav-item" href="/exhibitions/visitor-info/">Visitor Info</a>
       
     
@@ -73,18 +69,19 @@
   </nav>
 </aside>
 
-
-
       <div class="sidebar-overlay"></div>
       <div class="content-frame">
-         <div class="top-bar">
-          <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar"><span class="sr-only">Menu</span></button>
+        <div class="top-bar">
+          <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar">
+            <span class="sr-only">Menu</span>
+          </button>
           <a class="top-bar-brand" href="/">
             <span class="brand-name">BM&CF</span>
             <span class="brand-url">Blacksburg Museum and Cultural Foundation</span>
           </a>
-        </div> 
+        </div>
         <main class="page-shell">
+          
           
 <section class="page-banner">
   <div class="container">
@@ -99,21 +96,22 @@
     <div class="content-body">
 <div class="slider-container">
   
-  <div class="slide active"><img src="/images/may.png" alt="First Image"></div>
-  <div class="slide"><img src="/images/june.png" alt="Second Image"></div>
-  <div class="slide"><img src="/images/july.png" alt="Third Image"></div>
-  <div class="slide"><img src="/images/august.png" alt="fourth Image"></div>
+  <div class="slide active"><img src="/images/may.jpg" alt="First Image"></div>
+  <div class="slide"><img src="/images/june.jpg" alt="Second Image"></div>
+  <div class="slide"><img src="/images/july.jpg" alt="Third Image"></div>
+  <div class="slide"><img src="/images/august.jpg" alt="fourth Image"></div>
 
   
-<button class="arrow prev-arrow" onclick="moveSlide(this, -1)">&#10094;</button>
-<button class="arrow next-arrow" onclick="moveSlide(this, 1)">&#10095;</button>
-n>
+  <button class="arrow prev-arrow" onclick="changeSlide(-1)">&#10094;</button>
+  <button class="arrow next-arrow" onclick="changeSlide(1)">&#10095;</button>
 </div>
 
 
     </div>
   </div>
 </section>
+
+        
 
         </main>
         <footer class="site-footer">
@@ -146,31 +144,3 @@ n>
     </div>
   </body>
 </html>
-<script>
-function moveSlide(button, direction) {
-  
-  const container = button.closest('.md-slider-container') || button.closest('.slider-container');
-  
-  
-  const slides = container.querySelectorAll('.md-slide, .slide');
-  
-  
-  let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
-  
-  
-  slides[activeIndex].classList.remove('active');
-  
-  
-  activeIndex += direction;
-  
-  
-  if (activeIndex >= slides.length) {
-    activeIndex = 0;
-  } else if (activeIndex < 0) {
-    activeIndex = slides.length - 1;
-  }
-  
-  
-  slides[activeIndex].classList.add('active');
-}
-</script>
