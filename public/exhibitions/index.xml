@@ -1,50 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Exhibitions on Blacksburg Museum and Cultural Foundation</title>
-		<link>http://localhost:1313/museum-site/exhibitions/</link>
-		<description>Recent content in Exhibitions on Blacksburg Museum and Cultural Foundation</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<atom:link href="http://localhost:1313/museum-site/exhibitions/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Upstairs</title>
-				<link>http://localhost:1313/museum-site/exhibitions/upstairs/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/museum-site/exhibitions/upstairs/</guid>
-				<description>&lt;p&gt;The upstairs galleries feature rotating exhibitions and curated displays that highlight local history, art, and cultural programs. Explore this upper-level space for changing installations and interpretive exhibits.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Visitor Info</title>
-				<link>http://localhost:1313/museum-site/exhibitions/visitor-info/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/museum-site/exhibitions/visitor-info/</guid>
-				<description>&lt;p&gt;We are open Tuesday Saturday from 10am 4pm with free admission.&#xA;If you would like to schedule a group visit, please contact us so that we can be sure to accommodate you.&#xA;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeZxfJPmOSg7qFQhb-LtAZxZi84efGt9AzNcGGZIBbeT6CeRQ/viewform&#34;&gt;contact us&lt;/a&gt; about rental needs, donations, events, exhibits or anything else that may pertain to our mission. We&amp;rsquo;re happy to help!&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>On the Lawn</title>
-				<link>http://localhost:1313/museum-site/exhibitions/on-the-lawn/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/museum-site/exhibitions/on-the-lawn/</guid>
-				<description>&lt;p&gt;The lawn area hosts outdoor exhibitions, community programs, and seasonal events. This outdoor space allows visitors to engage with the museum across landscaped grounds and public displays.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Children&#39;s Gallery</title>
-				<link>http://localhost:1313/museum-site/exhibitions/childrens-gallery/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/museum-site/exhibitions/childrens-gallery/</guid>
-				<description>&lt;p&gt;The Children&amp;rsquo;s Gallery offers family-friendly exhibits, interactive displays, and programs designed to engage young visitors with history and the arts.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Featured Artist</title>
-				<link>http://localhost:1313/museum-site/exhibitions/featured-artist/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/museum-site/exhibitions/featured-artist/</guid>
-				<description>&lt;p&gt;The featured artist section celebrates local and regional creators whose work is on view in our gallery spaces. Discover their stories, creative process, and exhibition themes.&#xA;&lt;img src=&#34;http://localhost:1313/museum-site/images/artist.png&#34; alt=&#34;The featured artist of the month&#34;&gt;&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Exhibitions on Blacksburg Museum and Cultural Foundation</title>
+    <link>http://localhost:1313/museum-site/exhibitions/</link>
+    <description>Recent content in Exhibitions on Blacksburg Museum and Cultural Foundation</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/museum-site/exhibitions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upstairs</title>
+      <link>http://localhost:1313/museum-site/exhibitions/upstairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/museum-site/exhibitions/upstairs/</guid>
+      <description>&lt;p&gt;The upstairs galleries feature rotating exhibitions and curated displays that highlight local history, art, and cultural programs. Explore this upper-level space for changing installations and interpretive exhibits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Visitor Info</title>
+      <link>http://localhost:1313/museum-site/exhibitions/visitor-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/museum-site/exhibitions/visitor-info/</guid>
+      <description>&lt;p&gt;We are open Tuesday Saturday from 10am 4pm with free admission.&#xA;If you would like to schedule a group visit, please contact us so that we can be sure to accommodate you.&#xA;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeZxfJPmOSg7qFQhb-LtAZxZi84efGt9AzNcGGZIBbeT6CeRQ/viewform&#34;&gt;contact us&lt;/a&gt; about rental needs, donations, events, exhibits or anything else that may pertain to our mission. We&amp;rsquo;re happy to help!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On the Lawn</title>
+      <link>http://localhost:1313/museum-site/exhibitions/on-the-lawn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/museum-site/exhibitions/on-the-lawn/</guid>
+      <description>&lt;p&gt;The lawn area hosts outdoor exhibitions, community programs, and seasonal events. This outdoor space allows visitors to engage with the museum across landscaped grounds and public displays.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Children&#39;s Gallery</title>
+      <link>http://localhost:1313/museum-site/exhibitions/childrens-gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/museum-site/exhibitions/childrens-gallery/</guid>
+      <description>&lt;p&gt;The Children&amp;rsquo;s Gallery offers family-friendly exhibits, interactive displays, and programs designed to engage young visitors with history and the arts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Featured Artist</title>
+      <link>http://localhost:1313/museum-site/exhibitions/featured-artist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/museum-site/exhibitions/featured-artist/</guid>
+      <description>&lt;p&gt;The featured artist section celebrates local and regional creators whose work is on view in our gallery spaces. Discover their stories, creative process, and exhibition themes.&#xA;&lt;img src=&#34;http://localhost:1313/museum-site/images/artist.png&#34; alt=&#34;The featured artist of the month&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
