@@ -297,7 +297,9 @@ body {
   text-decoration: none;
 }
 .rental{
-  margin-left: -250px;
+  margin-left: -150px!important;
+  width: 300px;  /* Scales width down to 300 pixels */
+  height: auto;  /* Automatically adjusts height to fit */
 }
 .sidebar-logo {
   width: 100%;
