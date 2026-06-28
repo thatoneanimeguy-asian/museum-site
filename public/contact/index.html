@@ -1,16 +1,141 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head><script src="/museum-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=museum-site/livereload" data-no-instant defer></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Blacksburg Museum and Cultural Foundation</title>
-    <meta name="description" content="Get in touch with the foundation and follow us on social media." />
-    <link rel="stylesheet" href="/museum-site/css/styles.css">
-    <script src="/museum-site/js/sidebar-toggle.js" defer></script>
-  </head>
-  <body>
-    <div class="site-frame sidebar-open">
-      <aside id="sidebar" class="sidebar">
+<!DOCTYPE html> 
+<html lang="en"> 
+<head><script src="/museum-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=museum-site/livereload" data-no-instant defer></script> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>Contact | Blacksburg Museum and Cultural Foundation</title> 
+  <meta name="description" content="Get in touch with the foundation and follow us on social media." /> 
+  <link rel="stylesheet" href="/museum-site/css/styles.css"> 
+  <script src="/museum-site/js/sidebar-toggle.js" defer></script> 
+
+  
+  <script>
+    (function() {
+      
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-theme");
+        document.addEventListener("DOMContentLoaded", function() {
+          document.body.classList.add("dark-theme");
+        });
+      }
+      
+      
+      document.addEventListener("DOMContentLoaded", function() {
+        var savedSizeAdjustment = localStorage.getItem("textSizeAdjustment");
+        if (savedSizeAdjustment) {
+          var adjustment = parseInt(savedSizeAdjustment, 10);
+          if (!isNaN(adjustment) && adjustment !== 0) {
+            applyGlobalTextSize(adjustment);
+          }
+        }
+      });
+
+      
+      window.applyGlobalTextSize = function(totalAdjustment) {
+        var elements = document.querySelectorAll("p, h1, h2, span, a"); 
+        elements.forEach(function(el) { 
+          if (!el.closest('.settings-container')) { 
+            
+            var originalSize = el.getAttribute('data-base-size');
+            if (!originalSize) {
+              var currentStyle = window.getComputedStyle(el).fontSize;
+              el.setAttribute('data-base-size', currentStyle);
+              originalSize = currentStyle;
+            }
+            var baseSizeFloat = parseFloat(originalSize);
+            el.style.fontSize = (baseSizeFloat + totalAdjustment) + "px"; 
+          } 
+        });
+      };
+    })();
+  </script>
+
+  <style> 
+     
+    html.dark-theme {
+      background-color: #000000 !important;
+    }
+
+    .settings-container { 
+      position: fixed; 
+      top: 20px; 
+      right: 20px; 
+      z-index: 1000; 
+      font-family: Arial, sans-serif; 
+    } 
+    #gearBtn { 
+      font-size: 18px; 
+      cursor: pointer; 
+      padding: 8px 12px; 
+      background: #ffffff; 
+      border: 1px solid #cccccc; 
+      border-radius: 4px; 
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    } 
+    .settings-menu { 
+      position: absolute; 
+      top: 45px; 
+      right: 0; 
+      background: #f9f9f9; 
+      border: 1px solid #cccccc; 
+      padding: 15px; 
+      border-radius: 5px; 
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1); 
+      min-width: 140px; 
+    } 
+    .settings-menu p { 
+      margin: 0 0 10px 0; 
+      font-size: 14px; 
+      color: #333333; 
+    } 
+    .settings-menu button { 
+      font-size: 16px; 
+      padding: 5px 15px; 
+      margin-right: 5px; 
+      cursor: pointer; 
+    } 
+    .hidden { 
+      display: none; 
+    } 
+
+     
+    .dark-theme,
+    body.dark-theme, 
+    body.dark-theme header,
+    body.dark-theme footer,
+    body.dark-theme section,
+    body.dark-theme .site-hero, 
+    body.dark-theme div, 
+    body.dark-theme article,
+    body.dark-theme main,
+    body.dark-theme .top-bar {
+      background-color: #000000 !important;
+      background-image: none !important; 
+      color: #ffffff !important;
+    }
+    
+     
+    body.dark-theme section,
+    body.dark-theme article,
+    body.dark-theme main {
+      border: 1px solid #333333 !important;
+    }
+
+    body.dark-theme h1, 
+    body.dark-theme h2, 
+    body.dark-theme h3, 
+    body.dark-theme h4, 
+    body.dark-theme p, 
+    body.dark-theme strong, 
+    body.dark-theme span,
+    body.dark-theme a {
+      color: #ffffff !important;
+    }
+  </style>
+</head> 
+<body> 
+  <div class="site-frame sidebar-open"> 
+    <aside id="sidebar" class="sidebar">
   <button class="sidebar-close" aria-label="Close sidebar">&times;</button>
   <nav class="sidebar-nav">
     
@@ -68,20 +193,34 @@
     
   </nav>
 </aside>
+ 
+    <div class="sidebar-overlay"></div> 
+    <div class="content-frame"> 
+      
+      
+      <div class="settings-container"> 
+        <button id="gearBtn" onclick="toggleSettings()">⚙️ Settings</button> 
+        <div id="settingsMenu" class="settings-menu hidden"> 
+          <p>Adjust Text Size:</p> 
+          <button onclick="changeSize(2)">+</button> 
+          <button onclick="changeSize(-2)">-</button> 
+          <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+          <p>Theme:</p>
+          <button onclick="toggleDarkMode()" style="width: 100%;">🌓 Toggle Dark</button>
+        </div> 
+      </div>
 
-      <div class="sidebar-overlay"></div>
-      <div class="content-frame">
-        <div class="top-bar">
-          <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar">
-            <span class="sr-only">Menu</span>
-          </button>
-          <a class="top-bar-brand" href="/">
-            <span class="brand-name">BM&CF</span>
-            <span class="brand-url">Blacksburg Museum and Cultural Foundation</span>
-          </a>
-        </div>
-        <main class="page-shell">
-          
+      <div class="top-bar"> 
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="sidebar"> 
+          <span class="sr-only">Menu</span> 
+        </button> 
+        <a class="top-bar-brand" href="/"> 
+          <span class="brand-name">BM&CF</span> 
+          <span class="brand-url">Blacksburg Museum and Cultural Foundation</span> 
+        </a> 
+      </div> 
+      <main class="page-shell"> 
+        
 
 
 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
@@ -148,9 +287,9 @@ Email: <a href="mailto:info@blacksburghistory.org">info@blacksburghistory.org</a
     });
 </script>
 
-
-        </main>
-        <footer class="site-footer">
+ 
+      </main> 
+      <footer class="site-footer">
   <div class="container footer-grid">
     <div>
       <h2>Contact</h2>
@@ -175,8 +314,39 @@ Email: <a href="mailto:info@blacksburghistory.org">info@blacksburghistory.org</a
     </div>
   </div>
 </footer>
+ 
+    </div> 
+  </div> 
 
-      </div>
-    </div>
-  </body>
+  <script> 
+    function toggleSettings() { 
+      var menu = document.getElementById("settingsMenu"); 
+      menu.classList.toggle("hidden"); 
+    } 
+
+    
+    function changeSize(amount) { 
+      var currentAdjustment = parseInt(localStorage.getItem("textSizeAdjustment") || "0", 10);
+      var newAdjustment = currentAdjustment + amount;
+      
+      
+      if (newAdjustment >= -12 && newAdjustment <= 12) {
+        localStorage.setItem("textSizeAdjustment", newAdjustment);
+        window.applyGlobalTextSize(newAdjustment);
+      }
+    } 
+
+     
+    function toggleDarkMode() {
+      var isDark = document.body.classList.toggle("dark-theme");
+      document.documentElement.classList.toggle("dark-theme");
+      
+      if (isDark) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.removeItem("theme");
+      }
+    }
+  </script>
+</body> 
 </html>
